@@ -6,7 +6,7 @@ import SoundPlayer from 'react-native-sound-player'
 import data from '../data/sounds.json'
 
 class Home extends PureComponent {
-  state = { playing: false }
+  state = { playing: false, currentlyPlaying: ''}
 
   componentDidMount() {
     SoundPlayer.onFinishedPlaying((success: boolean) => {
@@ -14,11 +14,18 @@ class Home extends PureComponent {
     })
   }
 
-  playSound () {
-    const { playing } = this.state
-    playing
-      ? this.setState({ playing: false }, () => SoundPlayer.stop())
-      : this.setState({ playing: true }, () => SoundPlayer.playSoundFile('milyon_pans', 'mp3'))
+  playSound (item) {
+    const { playing, currentlyPlaying } = this.state
+
+    if (playing) {
+      if (currentlyPlaying !== item.name) {
+        this.setState({ currentlyPlaying: item.name }, () => SoundPlayer.playSoundFile(item.audio, item.format))
+      } else {
+        this.setState({ playing: false, currentlyPlaying: ''}, () => SoundPlayer.stop())
+      }
+    } else {
+      this.setState({ playing: true, currentlyPlaying: item.name }, () => SoundPlayer.playSoundFile(item.audio, item.format))
+    }
   }
 
   render () { 
@@ -35,7 +42,7 @@ class Home extends PureComponent {
             items={data}
             style={styles.gridView}
             renderItem={item => (
-              <TouchableOpacity style={[styles.itemContainer]} onPress={() => this.playSound()}>
+              <TouchableOpacity style={[styles.itemContainer]} onPress={() => this.playSound(item)}>
                 <Text style={styles.itemName}>{item.name}</Text>
               </TouchableOpacity>
             )}

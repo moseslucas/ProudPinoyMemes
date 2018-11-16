@@ -1,4 +1,4 @@
 [
-  { "name": "Million Pans" },
-  { "name": "Una Ulo" }
+  { "name": "Million Pans", "audio": "milyon_pans", "format": "mp3"},
+  { "name": "Test", "audio": "test", "format": "mp3"}
 ]
