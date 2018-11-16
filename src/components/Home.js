@@ -33,7 +33,7 @@ class Home extends PureComponent {
       <Container>
         <Header>
           <Body>
-            <Title> X </Title>
+            <Title> Prawd to be Pinoy </Title>
           </Body>
         </Header>
         <Content>
