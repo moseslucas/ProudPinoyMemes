@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import { StyleSheet, TouchableOpacity } from 'react-native'
-import { Container, Header, Body, Content, Title, Text, View } from 'native-base'
+import { Container, Header, Body, Content, Title, Text, View, Thumbnail } from 'native-base'
 import GridView from 'react-native-super-grid'
 import SoundPlayer from 'react-native-sound-player'
 import data from '../data/sounds.json'
@@ -28,6 +28,22 @@ class Home extends PureComponent {
     }
   }
 
+  renderItem = item => {
+    const { currentlyPlaying } = this.state
+    const active = currentlyPlaying === item.name
+    return (
+      <TouchableOpacity
+        onPress={() => this.playSound(item)}
+        style={[styles.itemContainer, {backgroundColor: active ? '#F16621' : '#fff' }]}
+      >
+        <Thumbnail large source={{uri: item.image}} />
+        <Text style={[styles.itemName, {color: active ? '#fff' : '#3a3a3a'}]}>
+          {item.name}
+        </Text>
+      </TouchableOpacity>
+    )
+  }
+
   render () { 
     return (
       <Container>
@@ -38,16 +54,12 @@ class Home extends PureComponent {
             </Title>
           </Body>
         </Header>
-        <Content>
+        <Content style={{backgroundColor: '#f7f7f7'}}>
           <GridView
             itemDimension={130}
             items={data}
             style={styles.gridView}
-            renderItem={item => (
-              <TouchableOpacity style={[styles.itemContainer]} onPress={() => this.playSound(item)}>
-                <Text style={styles.itemName}>{item.name}</Text>
-              </TouchableOpacity>
-            )}
+            renderItem={this.renderItem}
           />
         </Content>
       </Container>
@@ -61,14 +73,15 @@ const styles = StyleSheet.create({
   },
   itemContainer: {
     justifyContent: 'flex-end',
+    alignItems: 'center',
     borderRadius: 5,
     padding: 10,
     height: 150,
-    backgroundColor: '#ffc000'
+    elevation: 10
   },
   itemName: {
+    paddingTop: 8,
     fontSize: 16,
-    color: '#fff',
     fontWeight: '600',
   },
   itemCode: {

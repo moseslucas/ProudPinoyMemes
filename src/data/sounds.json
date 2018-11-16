@@ -1,4 +1,4 @@
 [
-  { "name": "Million Pans", "audio": "milyon_pans", "format": "mp3"},
-  { "name": "Test", "audio": "test", "format": "mp3"}
+  { "name": "Million Pans", "audio": "milyon_pans", "format": "mp3", "image": "https://cdn1.imggmi.com/uploads/2018/11/16/628d5f2b2695a720bb898fbc7ebe0d67-full.png" },
+  { "name": "Test", "audio": "test", "format": "mp3", "image": "https://cdn1.imggmi.com/uploads/2018/11/16/405b68376540b8a290907c4fce666f7d-full.png" }
 ]
