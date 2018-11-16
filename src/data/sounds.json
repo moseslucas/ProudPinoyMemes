@@ -1,4 +1,29 @@
 [
-  { "name": "Million Pans", "audio": "milyon_pans", "format": "mp3", "image": "https://cdn1.imggmi.com/uploads/2018/11/16/628d5f2b2695a720bb898fbc7ebe0d67-full.png" },
-  { "name": "Test", "audio": "test", "format": "mp3", "image": "https://cdn1.imggmi.com/uploads/2018/11/16/405b68376540b8a290907c4fce666f7d-full.png" }
+  { "name": "Uulit-ulitin ko paba", "audio": "uulit_ulitin", "format": "mp3",
+    "image": "https://cdn1.imggmi.com/uploads/2018/11/16/527c7f62dc2bd9370981a8be2b09b777-full.png"
+  },
+  { "name": "Guardian Angel", "audio": "guardian_angel", "format": "mp3",
+    "image": "https://cdn1.imggmi.com/uploads/2018/11/16/e5e1ed496466f5de628d65d72c2eff73-full.png"
+  },
+  { "name": "Battousai", "audio": "battousai", "format": "mp3",
+    "image": "https://cdn1.imggmi.com/uploads/2018/11/16/e232b9973f7a2c257053e67e0cdd23da-full.png"
+  },
+  { "name": "Devil's hand", "audio": "demonyong_kamay", "format": "mp3",
+    "image": "https://cdn1.imggmi.com/uploads/2018/11/16/f706d292654312e3917dd621e1abcae8-full.png"
+  },
+  { "name": "Pano mo nasabe", "audio": "pano_mo_nasabe", "format": "mp3",
+    "image": "https://cdn1.imggmi.com/uploads/2018/11/16/41c5d4919cc7906d13b1dff0a149318a-full.png"
+  },
+  { "name": "Advance ako magisip", "audio": "advance_ako_magisip", "format": "mp3",
+    "image": "https://cdn1.imggmi.com/uploads/2018/11/16/6e24fa889ca6a69625cb128a6c2427eb-full.png"
+  },
+  { "name": "Bat ako matatakot", "audio": "bat_ako_matatakot", "format": "mp3",
+    "image": "https://cdn1.imggmi.com/uploads/2018/11/16/7f29bc89094dff7d658becbe91c5d317-full.png"
+  },
+  { "name": "1M Fans", "audio": "milyon_pans", "format": "mp3",
+    "image": "https://cdn1.imggmi.com/uploads/2018/11/16/628d5f2b2695a720bb898fbc7ebe0d67-full.png"
+  },
+  { "name": "Finish na", "audio": "finish_na", "format": "mp3",
+    "image": "https://cdn1.imggmi.com/uploads/2018/11/16/d70a4052b28ddda64a09208f13d37f1c-full.png"
+  }
 ]

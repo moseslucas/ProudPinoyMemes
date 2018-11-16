@@ -34,7 +34,7 @@ class Home extends PureComponent {
     return (
       <TouchableOpacity
         onPress={() => this.playSound(item)}
-        style={[styles.itemContainer, {backgroundColor: active ? '#F16621' : '#fff' }]}
+        style={[styles.itemContainer, {backgroundColor: active ? '#FE595F' : '#fff' }]}
       >
         <Thumbnail large source={{uri: item.image}} />
         <Text style={[styles.itemName, {color: active ? '#fff' : '#3a3a3a'}]}>
@@ -47,7 +47,7 @@ class Home extends PureComponent {
   render () { 
     return (
       <Container>
-        <Header style={{backgroundColor: '#F16621'}} androidStatusBarColor='#F16621'>
+        <Header style={{backgroundColor: '#FE595F'}} androidStatusBarColor='#FE595F'>
           <Body>
             <Title style={{alignItems: 'center'}}>
               Prawd to be Pinoy
