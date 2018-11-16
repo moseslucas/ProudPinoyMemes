@@ -2,9 +2,25 @@ import React, { PureComponent } from 'react'
 import { StyleSheet, TouchableOpacity } from 'react-native'
 import { Container, Header, Body, Content, Title, Text, View } from 'native-base'
 import GridView from 'react-native-super-grid'
+import SoundPlayer from 'react-native-sound-player'
 import data from '../data/sounds.json'
 
 class Home extends PureComponent {
+  state = { playing: false }
+
+  componentDidMount() {
+    SoundPlayer.onFinishedPlaying((success: boolean) => {
+      success && this.setState({ playing: false })
+    })
+  }
+
+  playSound () {
+    const { playing } = this.state
+    playing
+      ? this.setState({ playing: false }, () => SoundPlayer.stop())
+      : this.setState({ playing: true }, () => SoundPlayer.playSoundFile('milyon_pans', 'mp3'))
+  }
+
   render () { 
     return (
       <Container>
@@ -19,7 +35,7 @@ class Home extends PureComponent {
             items={data}
             style={styles.gridView}
             renderItem={item => (
-              <TouchableOpacity style={[styles.itemContainer]}>
+              <TouchableOpacity style={[styles.itemContainer]} onPress={() => this.playSound()}>
                 <Text style={styles.itemName}>{item.name}</Text>
               </TouchableOpacity>
             )}
