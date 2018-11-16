@@ -31,9 +31,11 @@ class Home extends PureComponent {
   render () { 
     return (
       <Container>
-        <Header>
+        <Header style={{backgroundColor: '#F16621'}} androidStatusBarColor='#F16621'>
           <Body>
-            <Title> Prawd to be Pinoy </Title>
+            <Title style={{alignItems: 'center'}}>
+              Prawd to be Pinoy
+            </Title>
           </Body>
         </Header>
         <Content>
