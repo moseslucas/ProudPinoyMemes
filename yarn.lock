@@ -4758,6 +4758,14 @@ react-native-keyboard-aware-scroll-view@0.5.0:
     prop-types "^15.6.0"
     react-native-iphone-x-helper "^1.0.1"
 
+react-native-super-grid@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/react-native-super-grid/-/react-native-super-grid-2.4.3.tgz#ceeaa4515de7bdb2e3cc3f810009e1adbbadd40b"
+  integrity sha512-SRYHWSc6EPFlMp4m9ZQ2P6Fqc9GEH+RuO4sc6fhisUcH20TRxFO2OcDeHobIKv7KOarGa7jXdZZ85R+LZisKqA==
+  dependencies:
+    lodash "^4.17.10"
+    prop-types "^15.6.0"
+
 react-native-vector-icons@4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-4.6.0.tgz#e4014311ffa6de397d914ffc31b7097a874cc8d5"
