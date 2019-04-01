@@ -3,7 +3,7 @@ import { StyleSheet, TouchableOpacity } from 'react-native'
 import { Container, Header, Body, Content, Title, Text, View, Thumbnail } from 'native-base'
 import GridView from 'react-native-super-grid'
 import SoundPlayer from 'react-native-sound-player'
-import data from '../data/sounds.json'
+import memes from '../data/memes'
 
 class Home extends PureComponent {
   state = { playing: false, currentlyPlaying: ''}
@@ -36,7 +36,7 @@ class Home extends PureComponent {
         onPress={() => this.playSound(item)}
         style={[styles.itemContainer, {backgroundColor: active ? '#FE595F' : '#fff' }]}
       >
-        <Thumbnail large source={{uri: item.image}} />
+        <Thumbnail large source={item.image} />
         <Text style={[styles.itemName, {color: active ? '#fff' : '#3a3a3a'}]}>
           {item.name}
         </Text>
@@ -57,7 +57,7 @@ class Home extends PureComponent {
         <Content style={{backgroundColor: '#f7f7f7'}}>
           <GridView
             itemDimension={130}
-            items={data}
+            items={memes}
             style={styles.gridView}
             renderItem={this.renderItem}
           />
