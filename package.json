@@ -1,13 +1,14 @@
 {
-  "name": "Peenoise Sound Board",
-  "version": "0.0.1",
+  "name": "PeenoiseSoundBoard",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "start:android": "react-native run-android",
     "start:ios": "react-native run-ios",
-    "build:android": "cd android && ./gradlew assembleRelease"
+    "build:android": "cd android && ./gradlew assembleRelease",
+    "postversion": "RNV=android react-native-version --never-amend"
   },
   "dependencies": {
     "native-base": "^2.8.1",
@@ -21,6 +22,7 @@
     "babel-jest": "23.6.0",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.49.2",
+    "react-native-version": "^2.7.0",
     "react-test-renderer": "16.6.1"
   },
   "jest": {
