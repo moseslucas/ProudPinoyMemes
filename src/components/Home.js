@@ -49,8 +49,8 @@ class Home extends PureComponent {
       <Container>
         <Header style={{backgroundColor: '#FE595F'}} androidStatusBarColor='#FE595F'>
           <Body>
-            <Title style={{alignItems: 'center'}}>
-              Prawd to be Pinoy
+            <Title style={{alignSelf: 'center'}}>
+              PeEnoiSE SouNd BOaRd
             </Title>
           </Body>
         </Header>
