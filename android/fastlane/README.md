@@ -26,11 +26,16 @@ Runs all the tests
 fastlane android clean
 ```
 Submit a new Beta Build to Crashlytics Beta
+### android internal
+```
+fastlane android internal
+```
+Deploy Internal
 ### android beta
 ```
 fastlane android beta
 ```
-
+Deploy to Beta
 ### android deploy
 ```
 fastlane android deploy

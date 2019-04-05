@@ -25,6 +25,20 @@ platform :android do
   lane :clean do
     gradle(task: "clean assembleRelease")
   end
+
+  desc "Deploy Internal"
+  lane :internal do
+    gradle(task: 'assemble', build_type: 'Release')
+    upload_to_play_store(track: 'internal')
+  end
+
+  desc "Deploy Alpha"
+  lane :internal do
+    gradle(task: 'assemble', build_type: 'Release')
+    upload_to_play_store(track: 'alpha')
+  end
+
+  desc "Deploy to Beta"
   lane :beta do
     gradle(task: 'assemble', build_type: 'Release')
     upload_to_play_store(track: 'beta')
