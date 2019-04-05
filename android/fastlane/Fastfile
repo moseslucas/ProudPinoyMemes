@@ -33,7 +33,7 @@ platform :android do
   end
 
   desc "Deploy Alpha"
-  lane :internal do
+  lane :alpha do
     gradle(task: 'assemble', build_type: 'Release')
     upload_to_play_store(track: 'alpha')
   end
