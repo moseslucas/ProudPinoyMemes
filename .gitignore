@@ -51,6 +51,7 @@ buck-out/
 */fastlane/report.xml
 */fastlane/Preview.html
 */fastlane/screenshots
+android/api-7346392963026558441-485197-b988c9903b89.json
 
 # Bundle artifact
 *.jsbundle
