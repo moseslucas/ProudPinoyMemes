@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "api-7346392963026558441-485197",
+  "private_key_id": "b988c9903b89b17a98de430668977fc4408ec345",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMM67PCdXV+408\nrUZmbKuAkDxOBff4fL2XNUfZr0QwmqwVZtEurz5PvYxk7Iuzpqo8zc40nXtxEbtj\n2B4hIPBlIvqAjaKxLkuIaWTGXWcXkTHYICgUuYlPpORU+nPHI6IJA7k9ByW7iAkZ\nPIMAMnaTeZJFe/0TV3f/yKbpcAG3cio8TRsFFWOVUsEjENi1rgp4BO/cTAUnkXzS\nulBUQm4FPUoEiun+PlGvIOvJNJILmoqzO5w25ECriuXV+vBAWOSwdEHOrbJImuo7\nHAekyQc3O1X6ICXUHgymHGQgqhVYwfifjEkzV8X8v+dYxz4I17Lmr67MHuy3mUZc\nuD7cxFd5AgMBAAECggEAQVnxAhWVt+vPobGarEDvCjAe/KFwYLgbPP8yRXqQCjYW\nCKtlGtm+yWpSOiJx+0bFiLwc2D3mOaOBI00RJ20RQmzVWrr5bFbymW+RbuKJkcNH\n/nEcIrXWOgT9hiy5TOwceWIVsHBPJRs+PjNdgXyk8kGgDFjH/56oqtWehWrxQbHX\nLekN2RhnMATObmV0l6TDLQcu8DQb3B3sQd/M6iGxSQam/MYRPWq43hsdnjKbJOMv\nMmvPQPE47jFDBhchYQQWMtzDU9lDumnk951rS/EfuiypZ55NHlJD/I14QbiveseY\nFYU7dCaFhTFXLaPU4jqBkW2Xce0Maw/Iti2mJJz92QKBgQDzQkTdEcNo1JAzuw6q\n6YxGasGb81RTNe7eeWYUia85adN5p9cyXoKWERzghgVOW2Gj6NTQCgpf3PP8tQeP\nN+nMXqPoOXlvv/45Fyvn2AxWIYBPWuDZBGKBgJ4Jw4rqG3/sM+eKNUdedpilgpFj\n4H1vMk/5VR9o+sQls5dQzaRkNwKBgQDW5bggoX2sC9MMgCcNV24QrlkUG1CmDYoz\n6y9jMRg0ZyyXLHohkyM7mE3E5LXsqzCHB8iLO3eyrVCRNSMJP6JX+OvJKKoyCR37\nKTsBryVF8+qVf0vvoFunFldCxJ0XbIeDHlE5OgrqeBT+OvFll/GLAqu273YTUqQ1\n2ZrV3UmpzwKBgFsXPKw/w5nUxy7n5AUyMXoI7fkU9EW4k3sxoH0eVcQ9EZijthzB\ncUr6m4KkDQabh4OWY2KH7/yXw7GkpHEH8f+6jMwgAY5MKcl9GM7Xgz8Zim+syzfY\nwX5XCFcFp1Yk+BEeGp0ReGkyJdUMgJ8S6EWkZHgsXPe1t4+aoZX7e4yfAoGBAIPL\nNQaGJC3cvp2/BrRO94ixdJ45Nlfwm97FkTVzSZXx5M3+EBUBSS1mdeOYJN62Crf1\nlQ+W9A0X7/5uKUOlzCnJ1sly8BZpswJzQeYBhYmGU0tGW8rlfPBXakLflDxmaiGG\n+WdwantsE+vrOFsHObL4e1lhOPgWyfDguO4Knf/PAoGBAL4xlIT5A5LQLCFHcm4l\nBqpssLoZaC/uNJ9ogH4RQg1OOhLnr/03tQANaUimvrp+OTlWwnQBm+SWwDAeAD7W\ncF4ZoCrCvEJOQfG2goQzeyYt/4/aDI5nIyFyi9b7MIONeSnJc5bmeMs3xLeLvV9F\nZcB6iWLMiQ5b63Xg02VcEDZS\n-----END PRIVATE KEY-----\n",
+  "client_email": "com-proudpinoymemes-fastlane@api-7346392963026558441-485197.iam.gserviceaccount.com",
+  "client_id": "111384335272128367664",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/com-proudpinoymemes-fastlane%40api-7346392963026558441-485197.iam.gserviceaccount.com"
+}
