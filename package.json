@@ -11,6 +11,9 @@
     "postversion": "RNV=android react-native-version --never-amend"
   },
   "dependencies": {
+    "appcenter": "^1.13.0",
+    "appcenter-analytics": "^1.13.0",
+    "appcenter-crashes": "^1.13.0",
     "native-base": "^2.8.1",
     "react": "16.6.1",
     "react-native": "0.57.5",
